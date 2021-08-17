@@ -1,0 +1,294 @@
+*{
+    padding:0;
+    margin:0;
+    border: orangered;
+}
+
+.top-bar{
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+    padding:20px;background-image: linear-gradient(rgb(255, 217, 0), #ffff);
+   
+    
+}
+.contant{
+    text-align: center; 
+    margin:auto;
+    font-size: small;
+    
+}
+
+.heading1{
+    font-size: 22px;
+    font-weight: 700;
+    color:rgb(230, 31, 31);
+}
+.heading2{
+    font-size:16px;
+    font-weight: 600;
+    color:green;
+}
+.texthidedn{
+    font-size: 12px;
+    font-style:italic;
+}
+
+.logo {
+    position: realtive;
+    top: 0;
+    left:0;
+    padding:20px;
+    
+}
+.cLogo{
+    width:200px;
+    position:relative;
+    top:0;
+    right:0;
+    padding:20px;
+   
+} 
+.logo2{
+    width:282px;
+}
+.mechContainer{
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 0;
+    color:rgb(84, 38, 170);
+    background-color: white;
+}
+.top-img{
+    width: 100%;
+    height:83.5px ;
+    background-image: url("http://www.kongunadu.ac.in/templates/sj_directory/images/bg/bg-breadcrumb.jpg");
+    background-repeat:no-repeat ;
+    background-position:center;
+    
+}
+.top-bar-image-text>img{ 
+    width: 100%;
+    height:83.5px ;
+    display: block;
+}
+/* .top-bar-image-text{
+
+    
+} */
+.top-bar-image-text>h3{
+      margin-top: 0px;
+    display: flex;
+   justify-content:center;
+   align-items:center;z-index:-100; 
+}
+.leftBare{
+    padding: 5px;
+    border-radius: 10px;
+    
+    background-color:white ;
+    filter: drop-shadow(0px 3px 6px rgb(102, 102, 102));
+}
+
+.module>h3{
+    text-align: center;
+   
+}
+.modcontent>ul{
+    list-style: none;
+
+}
+.modcontent>ul>li{
+    line-height: 30px;
+    padding-left: 2px;
+
+}
+.modcontent>ul>li>a{
+    text-decoration: none;
+    color:#037bc8;
+    cursor: pointer;
+    
+}
+.modcontent>ul>li>a:hover{
+    text-decoration: none;
+    color:  rgb(255, 217, 0);
+    
+}
+.contant2{
+    width:100%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color:white ;
+    filter: drop-shadow(0px 3px 6px rgb(102, 102, 102));
+}
+.flex{
+    display:flex;
+    justify-content: space-between;
+}
+.menu-footer{
+
+    text-align: start;
+
+}
+.bg_footer{
+    background-color: #037BC8;
+}
+
+
+.title-color,.copyright,.title-normal{
+    color:white;
+}
+.copyright{
+    margin: auto;
+}
+.menu-footer2{
+width: 210px;
+}
+.menu-footer3{
+width:170px;
+}
+.menu-footer1{
+    width:100px;
+}
+.modcontent1>ul{
+    color:#2a6496 ;
+    list-style: none;
+    
+}
+.modcontent1>ul>li{
+    line-height: 30px;
+
+}
+.modcontent1>ul>li>a,.textDecoration{
+    text-decoration: none;
+    color:#d4e3f0;
+    cursor: pointer;
+    font-size: 14px;
+   list-style: disc;
+    
+    
+}
+.textDecoration:hover{
+    color:  rgb(255, 217, 0);
+    
+    transition: all .3s;
+}
+@keyframes line-animation {
+   0%{
+        left: 0;
+   }
+   50%{
+        left:50%;
+   }
+   100%{
+        left: 100%;
+       }
+}
+.selected{
+    color:  rgb(255, 217, 0) !important ;
+    border-bottom: 2px solid rgb(255, 217, 0) !important;
+    animation: line-animation 7s linear infinite !important;
+    
+}
+
+.modcontent1>ul>li>a:hover{
+    text-decoration: none;
+    color:  rgb(255, 217, 0);
+    padding-left: 30px;
+    transition: all .3s;
+}
+.footer{
+    display: block;
+}
+.res-footer{
+    display: none;
+}
+.list-style{
+    list-style-image: url('http://www.kongunadu.ac.in/templates/sj_directory/images/hand.png');
+}
+.list-style>li{
+    line-height: 30px;
+    font-size: 14px;
+}
+.middle{
+   margin: auto; 
+   text-align: center;
+   
+}
+.middle-text{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.flex1{
+    display: flex;
+    align-items: center;
+
+}
+.flex1>a{
+   text-decoration: none;
+}
+
+@media  screen and (max-width:550px) {
+    .heading1{
+        font-size: 22px;
+        font-weight: 700;
+display: none;
+        color:rgb(230, 31, 31);
+    }
+    .heading2{
+        font-size:16px;
+        font-weight: 600;
+        color:green;
+        display: none;
+    }
+    .resposive{
+            display: block;
+        }
+        .footer{
+            display: none;
+        }
+        .res-footer{
+            display: block;
+        }
+        .heading1{
+            font-size: 16px;
+            font-weight: 700;
+            color:rgb(230, 31, 31);
+        }
+        .my5{
+            margin-top: 30px;
+        }
+    }    
+@media  screen and (max-width:360px) {
+    .heading1{
+        font-size: 22px;
+        font-weight: 700;
+       display: none;
+        color:rgb(230, 31, 31);
+    }
+    .heading2{
+        font-size:16px;
+        font-weight: 600;
+        color:green;
+        display: none;
+    }
+.resposive{
+        display: block;
+    }
+    .footer{
+        display: none;
+    }
+    .res-footer{
+        display: block;
+    }
+    .heading1{
+        font-size: 16px;
+        font-weight: 700;
+        color:rgb(230, 31, 31);
+    }
+    .my5{
+        margin-top: 30px;
+    }
+}    
